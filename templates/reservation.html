@@ -1,0 +1,318 @@
+
+<br>
+<br>
+<div class="grid-block align-center">
+        <p><a ui-sref="home" class="hollow success button"><img zf-iconic="" icon="home" size="small">Back To Homepage</a></p>
+</div>
+
+<div class="grid-block align-center">
+    <div class="grid-content medium-8">
+        <h1><strong>Reservation Form</strong></h1>
+        	<hr>
+        	<h4>Please fill out the form below to reserve a room with us. You will receive an email response from us shortly.</h4><br><br>
+
+        <form novalidate>
+    		<label for="username">Username</label>
+    		<input type="text" id="username"
+        		name="username" ng-model="user.username"
+        		validation-max-length="10"
+        		validation-min-length="5"
+        		validation-no-space="true"
+        		validation-field-required="true"
+        		validation-no-special-chars="true"
+    		/>
+        <form>
+			<div class="grid-block">
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				First Name
+				<input type="text" placeholder="required">
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Last Name
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Email
+				<input type="text" id="email" name="email" placeholder="required" ng-model="user.email" >
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Phone Number
+				<input type="text" placeholder="required">
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Fax Number
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Address
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				City, State, ZIP
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Country
+				<input type="text" placeholder="">
+				</label>
+				</div>
+
+				<div class="small-6 medium-3 grid-content">
+				<label>Arrival Month</label>
+				<select name="" id="">
+				<option value="">January</option>
+				<option value="">February</option>
+				<option value="">March</option>
+				<option value="">April</option>
+				<option value="">May</option>
+				<option value="">June</option>
+				<option value="">July</option>
+				<option value="">August</option>
+				<option value="">September</option>
+				<option value="">October</option>
+				<option value="">November</option>
+				<option value="">December</option>
+				</select>
+				</div>
+
+				<div class="small-6 medium-3 grid-content">
+				<label>Arrival Day</label>
+				<select name="" id="">
+				<option value="">1</option>
+				<option value="">2</option>
+				<option value="">3</option>
+				<option value="">4</option>
+				<option value="">5</option>
+				<option value="">6</option>
+				<option value="">7</option>
+				<option value="">8</option>
+				<option value="">9</option>
+				<option value="">10</option>
+				<option value="">11</option>
+				<option value="">12</option>
+				<option value="">13</option>
+				<option value="">14</option>
+				<option value="">15</option>
+				<option value="">16</option>
+				<option value="">17</option>
+				<option value="">18</option>
+				<option value="">19</option>
+				<option value="">20</option>
+				<option value="">21</option>
+				<option value="">22</option>
+				<option value="">23</option>
+				<option value="">24</option>
+				<option value="">25</option>
+				<option value="">26</option>
+				<option value="">27</option>
+				<option value="">28</option>
+				<option value="">29</option>
+				<option value="">30</option>
+				<option value="">31</option>
+				</select>
+				</div>
+
+				<div class="small-6 medium-3 grid-content">
+				<label>Departure Month</label>
+				<select name="" id="">
+				<option value="">January</option>
+				<option value="">February</option>
+				<option value="">March</option>
+				<option value="">April</option>
+				<option value="">May</option>
+				<option value="">June</option>
+				<option value="">July</option>
+				<option value="">August</option>
+				<option value="">September</option>
+				<option value="">October</option>
+				<option value="">November</option>
+				<option value="">December</option>
+				</select>
+				</div>
+
+				<div class="small-6 medium-3 grid-content">
+				<label>Departure Day</label>
+				<select name="" id="">
+				<option value="">1</option>
+				<option value="">2</option>
+				<option value="">3</option>
+				<option value="">4</option>
+				<option value="">5</option>
+				<option value="">6</option>
+				<option value="">7</option>
+				<option value="">8</option>
+				<option value="">9</option>
+				<option value="">10</option>
+				<option value="">11</option>
+				<option value="">12</option>
+				<option value="">13</option>
+				<option value="">14</option>
+				<option value="">15</option>
+				<option value="">16</option>
+				<option value="">17</option>
+				<option value="">18</option>
+				<option value="">19</option>
+				<option value="">20</option>
+				<option value="">21</option>
+				<option value="">22</option>
+				<option value="">23</option>
+				<option value="">24</option>
+				<option value="">25</option>
+				<option value="">26</option>
+				<option value="">27</option>
+				<option value="">28</option>
+				<option value="">29</option>
+				<option value="">30</option>
+				<option value="">31</option>
+				</select>
+				</div>
+
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Time of Arrival
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Total Nights in Room
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Number of Adults
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Number of Children
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Children's Ages
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Number of Units
+				<input type="text" placeholder="">
+				</label>
+				</div>
+				
+				<section class="block-list text-center small-12 medium-6">
+					<header>Bed Type Desired</header>
+					<ul>
+					<li>
+					<input type="radio" name="bedtype" id="queenbed" value="queenbed" checked="">
+					<label for="queenbed">Queen Bed</label>
+					</li>
+					<li>
+					<input type="radio" name="bedtype" id="kingbed" value="kingbed">
+					<label for="kingbed">King Bed</label>
+					</li>
+					</ul>
+					</section>
+
+				<section class="block-list text-center small-12 medium-6">
+					<header>Bath Type Desired</header>
+					<ul>
+						<li>
+						<input type="radio" name="bathtype" id="sharedbath" value="sharedbath" checked="">
+						<label for="sharedbath">Shared Bath</label>
+						</li>
+						<li>
+						<input type="radio" name="bathtype" id="privatebath" value="privatebath">
+						<label for="privatebath">Private Bath</label>
+						</li>
+					</ul>
+				</section>
+
+				<div class="grid-content">
+				<h3>Secure Payment to Guarantee Room:</h3>
+				</div>
+
+				<div class="small-12 medium-6 grid-content">
+				<label>Type of Credit Card</label>
+				<select name="" id="">
+				<option value="">VISA</option>
+				<option value="">Mastercard</option>
+				</select>
+				</div>
+
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Card Number
+				<input type="text" placeholder="">
+				</label>
+				</div>
+
+				<div class="small-12 medium-6 grid-content">
+				<label>
+				Expiration Month/Year
+				<input type="text" placeholder="06/2020">
+				</label>
+				</div>
+
+				<div class="grid-content small-12">
+				<label>
+				Additional Comments
+				<input type="text" placeholder="">
+				</label>
+				</div>
+			</div>
+		</form>
+				<div class="grid-content">
+				<h3>Cancellation Policy</h3>
+				<label>
+				<p><a class="expand alert button"><img zf-iconic="" icon="flag" size="small">Please read and the following Cancellation Policy</a></p>
+				<p>Cancellations must be made 10 days in advance of arrival or entire reservation will be charged in full to credit card, unless we can resell any or all of the nights you have reserved. Sorry, no exceptions.</p>
+				<p>For visitors receiving the monthly rate, there is a $300 non-refundable deposit for cancellations occurring less than 30 days from the first night of the reservation.</p>
+				<p>For All Reservations: You will be responsible for full payment on early departures unless we can resell any or all of the nights you have reserved. Sorry, no exceptions.</p>
+				<p>Thank you. You will hear from us shortly.</p>
+				</div>
+				<br>
+
+				<div class="grid-content text-center">
+				<input id="CancellationAgreement" type="checkbox"><label for="CancellationAgreement">I have read and agree to the Cancellation Policy stated above. (Required)</label>
+				</div>
+				<br>
+				<br>
+	</div>
+</div>
+
+<div class="grid-block align-center text-center">
+    <div class="grid-content medium-8">				
+    	<a class="medium success button" type="submit" ui-sref="home" title="Thank You!" content="Your reservation has been successfully submitted to Bed & Breakfast. We will review it and contact you within 48 hours. - B&B Staff" color="success" autoclose="8000" zf-notify="place-notify"><img zf-iconic="" icon="circle-check" size="small">Submit Reservation</a>
+	<hr>
+	</div>
+
+	<div class="grid-content medium-8">
+        <p><a ui-sref="home" class="hollow success button"><img zf-iconic="" icon="home" size="small">Back To Homepage</a></p>
+    </div>
+</div>
+
