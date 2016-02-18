@@ -6404,7 +6404,7 @@ blockquote p {
   padding-top: 40px;
   padding-bottom: 40px;
   margin-bottom: 32px;
-  background: url("../img/small-banner.jpg") center center;
+  background: url("../img/banner-small.jpg") center center;
   background-size: cover; }
   @media only screen and (min-width: 75em) {
     .banner {
@@ -6413,7 +6413,7 @@ blockquote p {
       padding-left: 60px;
       padding-bottom: 40px;
       margin-bottom: 32px;
-      background: url("../img/large-banner.jpg") center center;
+      background: url("../img/banner-large.jpg") center center;
       background-size: cover; } }
   @media only screen and (min-width: 40em) {
     .banner {
@@ -6422,7 +6422,7 @@ blockquote p {
       padding-left: 55px;
       padding-bottom: 40px;
       margin-bottom: 32px;
-      background: url("../img/medium-banner.jpg") center center;
+      background: url("../img/banner-medium.jpg") center center;
       background-size: cover; } }
   .banner h1,
   .banner .lead {
